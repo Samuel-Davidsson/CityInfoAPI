@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CityInfo.Api.Models
 {
-    public class PointsOfInterestDto
+    public class PointOfInterestDto
     {
         public int Id { get; set; }
 
@@ -19,7 +19,7 @@ namespace CityInfo.Api.Models
             }
          }
 
-        public ICollection<PointsOfInterestDto> PointOfIntrest { get; set; }
-        = new List<PointsOfInterestDto>();
+        public ICollection<PointOfInterestDto> PointOfIntrest { get; set; }
+        = new List<PointOfInterestDto>();
     }
 }

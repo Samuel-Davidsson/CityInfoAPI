@@ -1,8 +1,5 @@
 ﻿using CityInfo.Api.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CityInfo.Api
 {
@@ -20,15 +17,15 @@ namespace CityInfo.Api
                     Id = 1,
                     Name = "New York City",
                     Description = "The one with the big park",
-                    PointsOfInterest = new List<PointsOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 1,
                             Name = "Central Park",
                             Description = "The most visited park in the world"
                         },
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 2,
                             Name = "Emipre State Building",
@@ -42,15 +39,15 @@ namespace CityInfo.Api
                     Id = 2,
                     Name = "Antwerp",
                     Description = "The one with the cathedral that was never really finished",
-                    PointsOfInterest = new List<PointsOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 3,
                             Name = "Antwerp museum",
                             Description = "The most visited museum in the world"
                         },
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 4,
                             Name = "Art gallery",
@@ -63,15 +60,15 @@ namespace CityInfo.Api
                     Id = 3,
                     Name = "paris",
                     Description = "The one with the big tower",
-                    PointsOfInterest = new List<PointsOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 5,
                             Name = "Triumph båg fan",
                             Description = "bred jävla väg"
                         },
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 6,
                             Name = "The effeltower",
